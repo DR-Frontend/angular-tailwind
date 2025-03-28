@@ -1,25 +1,69 @@
-<div class="w-screen h-screen bg-gray-50 relative">
+<div class="w-screen h-screen flex items-center justify-center bg-gray-50 relative">
    <div class="absolute w-full h-full">
       <img class="absolute w-60 left-0 bottom-0" src="In-the-office.svg" alt="">
       <img class="absolute w-60 right-0 bottom-0" src="Computer-files.svg" alt="">
    </div>
-   <div class="relative w-4/12 m-auto">
-      <header class="pt-6 pb-2 flex justify-center">
-         <img class="w-56" src="Trello.svg" alt="">
-      </header>
-      <div class="bg-white rounded shadow py-6 px-6">
-         <h1 class="text-center font-semibold pt-4 pb-8">Login to Trello [27-03-25]</h1>
+   <div class="relative max-w-[400px] m-auto">
+      <div class="bg-white rounded shadow py-8 px-10">
+         <div class="w-full flex justify-center">
+            <img class="h-6" src="Trello.svg" alt="">
+         </div>
+         <h1 class="text-center font-semibold pt-6 pb-2">Inicia sesión para continuar</h1>
          <form novalidate class="space-y-4">
             <div class="relative">
-               <input placeholder="Enter mail" type="text" class="w-full rounded bg-gray-100 border-2 border-gray-300 p-3">
+               <input placeholder="Introduce tu correo electrónico" type="text"
+                  class="w-full rounded border-2 border-gray-300 px-1.5 py-2  text-sm">
             </div>
-            <div class="relative">
-               <input placeholder="Enter password" type="password" class="w-full rounded bg-gray-100 border-2 border-gray-300 p-3">
+            <div class="flex gap-2 text-sm">
+               <input type="checkbox" name="" id="">
+               <p class="text-[#0c66e4]">Recordarme</p>
             </div>
             <div>
-               <button class="text-white w-full font-bold rounded text-sm bg-green-700 p-3" type="submit">Log in</button>
+               <button class="text-white w-full font-semibold rounded text-sm bg-[#0c66e4] p-3"
+                  type="submit">Continuar</button>
+            </div>
+            <div class="relative w-full flex justify-center ">
+               <p class="font-semibold text-gray-500">O continúa con:</p>
+            </div>
+            <div class="relative p-2 w-full flex justify-center border-2 border-gray-200 font-bold rounded-sm">
+               <button class="flex gap-3 text-[#0c66e4]">
+                  <img src="https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/google-logo.5867462c.svg"
+                     class="w-6" alt="">Google</button>
+            </div>
+            <div class="relative p-2 w-full flex justify-center border-2 border-gray-200 font-bold rounded-sm">
+               <button class="flex gap-3 text-[#0c66e4]">
+                  <img
+                     src="https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/microsoft-logo.c73d8dca.svg"
+                     class="w-6" alt="">Microsoft</button>
+            </div>
+            <div class="relative p-2 w-full flex justify-center border-2 border-gray-200 font-bold rounded-sm">
+               <button class="flex gap-3 text-[#0c66e4]">
+                  <img src="https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/apple-logo.54e0d711.svg"
+                     class="w-6" alt="">Apple</button>
+            </div>
+            <div class="relative p-2 w-full flex justify-center border-2 border-gray-200 font-bold rounded-sm">
+               <button class="flex gap-3 text-[#0c66e4]">
+                  <img src="https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/slack-logo.5d730c10.svg"
+                     class="w-6" alt="">Slack</button>
             </div>
          </form>
+
+         <div class="w-full pt-4 pb-3 flex justify-center gap-2 text-[#0c66e4]">
+            <a href="#" class="text-sm">¿No puedes iniciar sesión?</a><span>•</span>
+            <a href="#" class="text-sm">Crear una cuenta</a>
+         </div>
+         <hr class="border-gray-400">
+
+         <div class="w-full p-6 flex flex-col items-center text-[11px]">
+            <img src="Atlassian.svg" class="h-6" alt="">
+            <p>Una cuenta para Trello, Jira, Confluence y <a href="#" class="text-[#0c66e4]">más.</a></p>
+            <div class="w-full p-3 flex gap-2 justify-center">
+               <a href="#">Política de privacidad</a><span>•</span>
+               <a href="#">Aviso de usuario</a>
+            </div>
+            <p class="text-center">Este sitio está protegido por reCAPTCHA, y se aplican la <a href="#"
+                  class="text-[#0c66e4]">política de privacidad</a> y las <a href="#" class="text-[#0c66e4]">condicionesde servicio</a> de Google.</p>
+         </div>
       </div>
    </div>
 </div>
